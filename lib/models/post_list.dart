@@ -7,10 +7,7 @@ class PostList extends StatefulWidget {
   final List<Post> listItems;
   final User user;
 
-  const PostList(
-    this.listItems,
-    this.user, {super.key},
-  );
+  const PostList(this.listItems, this.user, {super.key});
 
   @override
   State<PostList> createState() => _PostListState();
